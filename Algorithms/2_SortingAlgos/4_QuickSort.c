@@ -39,7 +39,7 @@ int partition_ascending(int *arr , int low , int high){
     temp = arr[low];
     arr[low] = arr[j];
     arr[j] = temp;
-    return j;//because arr[j] is now the new pivote
+    return j;//because arr[j] is now the new pivot
 }
 
 void quickSort_ascending(int *arr , int low , int high){
